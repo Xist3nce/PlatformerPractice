@@ -80,6 +80,7 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\Camera2DFollow.cs" />
     <Compile Include="Assets\Scripts\FollowUV.cs" />
+    <Compile Include="Assets\Scripts\GrapplingHook.cs" />
     <Compile Include="Assets\Scripts\PlayerMovementScript.cs" />
     <Compile Include="Assets\Scripts\ScrollUV.cs" />
     <Compile Include="Assets\Scripts\UVscroll.cs" />
