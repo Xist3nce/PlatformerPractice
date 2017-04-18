@@ -6,7 +6,15 @@ public class HookMovement : MonoBehaviour {
 
 
     public Rigidbody2D rb;
+    private Transform PlayerTransform;
+    private GameObject Player;
 
+
+    void Awake ()
+    {
+        Player = GameObject.Find("PlaceholderMan");
+        PlayerTransform = Player.transform;
+    }
 	// Use this for initialization
 	void Start ()
     {

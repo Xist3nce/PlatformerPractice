@@ -34,6 +34,7 @@ public class GrapplingHook : MonoBehaviour
         Rinput = new Vector3(Input.GetAxis("RightStickX"), Input.GetAxis("RightStickY"));
         if (Input.GetButton("GrapplingHook"))
         {
+            Debug.Log("Trying to shoot");
             FireGrapple();
         }
         if (Rinput.sqrMagnitude < 0.05f)
