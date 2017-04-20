@@ -49,7 +49,7 @@ public class GrapplingHook : MonoBehaviour
 
     void FireGrapple()
     {
-        if (CanGrapple = true)
+        if (CanGrapple == true)
         {
 
             Debug.Log("Shooting");
