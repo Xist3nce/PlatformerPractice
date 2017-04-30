@@ -83,6 +83,7 @@
     <Compile Include="Assets\Scripts\GrapplingHook.cs" />
     <Compile Include="Assets\Scripts\HookMovement.cs" />
     <Compile Include="Assets\Scripts\PlayerMovementScript.cs" />
+    <Compile Include="Assets\Scripts\RayCastGrapplingHook.cs" />
     <Compile Include="Assets\Scripts\ScrollUV.cs" />
     <Compile Include="Assets\Scripts\UVscroll.cs" />
   </ItemGroup>
